@@ -3,7 +3,7 @@ include "../config.php";
 session_start();
 // var_dump($_SESSION);
 if (!isset($_SESSION['login_in'])) {
-    echo "<script type='text/javascript'>alert('Anda tidak diperkenankan masuk ke halaman ini!');location.href = \"../login.php\"</script>";
+    echo "<script type='text/javascript'>alert('Anda tidak diperkenankan masuk ke halaman ini!');location.href = \"../index.php\"</script>";
 }
 $getData = mysqli_query($conn, "SELECT * FROM mhs");
 ?>

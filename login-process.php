@@ -20,8 +20,8 @@ if (isset($_POST['login'])) {
             echo "<script type='text/javascript'>alert('selamat datang $level');location.href = \"admin/home.php\"</script>";
         }
     } else {
-        echo "<script type='text/javascript'>alert('Login gagal, username atau password salah!');location.href = \"login.php\"</script>";
+        echo "<script type='text/javascript'>alert('Login gagal, username atau password salah!');location.href = \"index.php\"</script>";
     }
 } else {
-    echo "<script type='text/javascript'>alert('Anda tidak diperkenankan masuk ke halaman ini!');location.href = \"login.php\"</script>";
+    echo "<script type='text/javascript'>alert('Anda tidak diperkenankan masuk ke halaman ini!');location.href = \"index.php\"</script>";
 }
